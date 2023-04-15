@@ -1,5 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -12,19 +14,226 @@
     position: relative;
     background-color: #9C835F;
 }
-
-.background .backward{
+/* -----------------------  logo, navigation, and title ----------------------- */
+a{
     font-size: 72px;
     color: #724C21;
     position: absolute;
-    top: 12px;
-    left: 37px;
+    top: 0%;
+    left:2%;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px;
 
+}
+
+.logo{
+    background-image: url(assets/logo\ 1.png);
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    width: 72px;
+    height: 72px;
+
+}
+
+.title{
+    position: absolute;
+    top: 3%;
+    left: 16%;
+    font-size: 36px;
+    color: #F9B23D;
+    font-weight: bold;
+}
+/* ------------------- player -------------------- */
+
+.player-title{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    top: 11.5%;
+    left: 25%;
+}
+
+.player-hover1{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 16%;
+    left: 23%;
+    display: none;
+    
+}
+
+.player-hover2{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 33%;
+    left: 23%;
+    display: none;
+}
+
+.player-hover3{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 54%;
+    left: 23%;
+    
 }
 
 
 
 
+.player-rock img{
+    
+    width: 120px;
+    top: 20%;
+    left: 26%;
+    position: absolute;
+
+}
+
+.player-paper img{
+    
+    width: 115px;
+    top: 34%;
+    left: 26%;
+    position: absolute;
+
+}
+
+.player-scissor img{
+    
+    width: 134px;
+    top: 55%;
+    left: 26%;
+    position: absolute;
+
+}
+
+
+
+/* --------------- -------------- COM -------------------------------- */
+
+.com-title{
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    top: 11.5%;
+    left: 70%;
+}
+
+.com-hover1{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 16%;
+    left: 67%;
+    /* display: none; */
+    
+}
+
+.com-hover2{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 33%;
+    left: 67%;
+    display: none;
+}
+
+.com-hover3{
+    width: 200px;
+    height: 180px;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    position: absolute;
+    top: 54%;
+    left: 67%;
+    display: none;
+}
+
+.com-rock img{
+    width: 120px;
+    top: 20%;
+    left: 70%;
+    position: absolute;
+}
+
+.com-paper img{
+    
+    width: 115px;
+    top: 34%;
+    left: 70%;
+    position: absolute;
+
+}
+
+.com-scissor img{
+    
+    width: 134px;
+    top: 55%;
+    left: 70%;
+    position: absolute;
+
+}
+
+/* -------------------------- Scoreboard and reset button ------------------------------- */
+
+.score{
+    position: absolute;
+    width: 271px;
+    height: 167px;
+    background-color: #4C9654;
+    color: white;
+    font-weight: bold;
+    font-size: 38px;
+    padding:  0px;
+    border-radius: 8px;
+    left: 43%;
+    top: 35%;
+    transform: rotate(-20deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#score1{
+    display: none;
+}
+#score2{
+    display: none;
+}
+#score3{
+    /* display: none; */
+}
+.reset{
+    width: 77px;
+    height: 71px;
+}
+
+.resetlink{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
 
 
 
