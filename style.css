@@ -1,0 +1,30 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.background {
+    top: 0;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background-color: #9C835F;
+}
+
+.background .backward{
+    font-size: 72px;
+    color: #724C21;
+    position: absolute;
+    top: 12px;
+    left: 37px;
+
+}
+
+
+
+
+
+
+
