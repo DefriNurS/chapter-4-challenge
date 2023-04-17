@@ -57,16 +57,15 @@ a{
     left: 25%;
 }
 
-.player-hover1{
+/* .player-hover1{
     width: 200px;
     height: 180px;
     background-color: #C4C4C4;
     border-radius: 30px;
     position: absolute;
     top: 16%;
-    left: 23%;
-    display: none;
-    
+    left: 23%;    
+    opacity: 0.1;
 }
 
 .player-hover2{
@@ -88,37 +87,69 @@ a{
     position: absolute;
     top: 54%;
     left: 23%;
-    
-}
+    display: none;
+} */
 
 
 
 
-.player-rock img{
+.rock{
     
     width: 120px;
-    top: 20%;
-    left: 26%;
-    position: absolute;
+    height: 92px;
+    padding: 40px 45px;
+    border-radius: 30px;
 
 }
 
-.player-paper img{
+.player-rock :hover {
+    background-color: #C4C4C4 ;
+}
+
+.player-rock{
     
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    border-radius: 30px;
+    position: absolute;
+    top: 16%;
+    left: 23%;    
+
+}
+
+
+.paper{
     width: 115px;
+    height: 150px;
+    padding: 25px 40px ;
+    border-radius: 30px;
+}
+.player-paper :hover {
+    background-color: #C4C4C4 ;
+}
+.player-paper{
     top: 34%;
-    left: 26%;
+    left: 24%;
     position: absolute;
 
 }
 
-.player-scissor img{
-    
+.scissor{
     width: 134px;
-    top: 55%;
-    left: 26%;
-    position: absolute;
+    height: 160px;
+    padding: 20px 35px ;
+}
 
+.player-scissor :hover {
+    background-color: #C4C4C4 ;
+    border-radius: 30px;
+}
+
+.player-scissor{
+    top: 55%;
+    left: 24%;
+    position: absolute;
 }
 
 
@@ -143,7 +174,7 @@ a{
     position: absolute;
     top: 16%;
     left: 67%;
-    /* display: none; */
+
     
 }
 
