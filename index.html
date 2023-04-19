@@ -34,28 +34,38 @@
                 <div class="player-hover3"></div> -->
 
                 <div class="player-title">PLAYER 1</div>
-                <a class="player-rock" href="#"><img class=" hand-option rock" src="assets/batu.png" alt=""></a>
-                <a class="player-paper" href="#" > <img class="hand-option paper" src="assets/kertas.png" alt=""> </a>
-                <a class="player-scissor" href="#" > <img class="hand-option scissor" src="assets/gunting.png" alt=""> </a>>
+                <div class="" onclick="change()">
+                    <div class="hand-option rock" > <img src="assets/batu.png" onclick="change()"> </div>
+                    <div class="hand-option paper" > <img  src="assets/kertas.png" alt=""> </div>
+                    <div class="hand-option scissor" > <img src="assets/gunting.png" alt=""> </div>
+                </div>
 
                
 
                 <!-- COM title, and hands -->
 
-                <div class="com-hover1"></div>
-                <div class="com-hover2"></div>
-                <div class="com-hover3"></div>
+                <!-- <div class="com-hover1"></div> -->
+                <!-- <div class="com-hover2"></div>
+                <div class="com-hover3"></div> -->
 
                 <div class="com-title">COM</div>
-                <div class="com-rock" > <img src="assets/batu.png" alt=""></div>
-                <div class="com-paper"> <img src="assets/kertas.png" alt=""> </div>
-                <div class="com-scissor"> <img src="assets/gunting.png" alt=""> </div>
+                <div class="com ">
+                    <div class="com-rock" > <img src="assets/batu.png" alt=""></div>
+                    <div class="com-paper"> <img src="assets/kertas.png" alt=""> </div>
+                    <div class="com-scissor"> <img src="assets/gunting.png" alt=""> </div>
+                </div>
 
                 <!-- Scoreboard and reset button -->
-                <div class="score" id="score1"> PLAYER 1 </br> WIN </div>
-                <div class="score" id="score2"> COM <br> WIN  </div>
-                <div class="score" id="score3"> DRAW </div>
-                <a class="resetlink" href="#"><img class="reset" src="assets/refresh.png" alt=""></a>
+                
+                <div class="result">
+                    <!-- <div class="score s1" id="s1"> PLAYER 1 </br> WIN </div>
+                    <div class="score s2" id="s2"> COM <br> WIN  </div>
+                    <div class="score s3" id="s3"> DRAW </div> -->
+                </div>
+            
+                <div class="vs" >VS</div>
+
+                <a class="resetlink" ><img class="reset" src="assets/refresh.png" onclick="document.location.reload()"></a>
 
 
 
